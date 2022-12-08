@@ -20,6 +20,7 @@ struct RoverControl {
   char command ='f';
   int speed =0;
   int time =0;
+  int distance = 0;
 
   RoverControl *next = NULL;
   }
